@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  employee_id: 
+  date: 2013-05-02
+  time1: 2013-05-02 02:01:07
+  time2: 2013-05-02 02:01:07
+  time3: 2013-05-02 02:01:07
+  time4: 2013-05-02 02:01:07
+
+two:
+  employee_id: 
+  date: 2013-05-02
+  time1: 2013-05-02 02:01:07
+  time2: 2013-05-02 02:01:07
+  time3: 2013-05-02 02:01:07
+  time4: 2013-05-02 02:01:07

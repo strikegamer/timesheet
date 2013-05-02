@@ -1,0 +1,44 @@
+<%= form_for @checkin, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :employee_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :employee_id, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :date, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.date_select :date, :class => 'date_select' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :time1, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.datetime_select :time1, :class => 'datetime_select' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :time2, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.datetime_select :time2, :class => 'datetime_select' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :time3, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.datetime_select :time3, :class => 'datetime_select' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :time4, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.datetime_select :time4, :class => 'datetime_select' %>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                checkins_path, :class => 'btn' %>
+  </div>
+<% end %>
